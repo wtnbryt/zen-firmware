@@ -13,6 +13,21 @@
             key-positions = <28 29>;
             layers = <2>;
         };
+
+        mb {
+            bindings = <&mkp MB1>;
+            key-positions = <19 20>;
+        };
+
+        middle {
+            bindings = <&mkp MB3>;
+            key-positions = <19 20 21>;
+        };
+
+        rightclick {
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
